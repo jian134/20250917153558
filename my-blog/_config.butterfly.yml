@@ -1,0 +1,19 @@
+# Theme Color
+theme-color:
+  enable: true
+  main: "#4CAF50"
+  paginator: "#8BC34A"
+  button_hover: "#FF9800"
+  text_selection: "#4CAF50"
+  link_color: "#607D8B"
+  link_hover: "#4CAF50"
+
+# Home Page
+index:
+  banner_img: 
+  banner_img_height: 70
+
+# Article
+article:
+  meta_align: center
+  copyright: true
