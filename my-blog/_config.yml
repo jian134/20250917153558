@@ -96,9 +96,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: shoka
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/jian134/20250917153558.git
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"

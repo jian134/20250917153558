@@ -1,0 +1,105 @@
+# Shoka主题配置文件
+
+# 网站图标和头像
+favicon:
+  apple_touch_icon: /images/apple-touch-icon.png
+  favicon_32_32: /images/favicon-32x32.png
+  favicon_16_16: /images/favicon-16x16.png
+  safari_pinned_tab: /images/safari-pinned-tab.svg
+
+avatar: /images/avatar.jpg
+
+# 菜单设置
+menu:
+  home: / || home
+  about: /about/ || user
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  friends: /friends/ || heart
+
+# 社交媒体链接
+social:
+  github: https://github.com/yourname || github
+  email: mailto:your-email@example.com || envelope
+  # 可以添加更多社交媒体链接
+
+# 页脚设置
+footer:
+  since: 2023
+  count: true
+  powered: true
+  theme: true
+  beian:
+    enable: false
+    icp: 
+
+# 文章设置
+post:
+  count: true
+  copyright: true
+  reward: false
+
+# 搜索设置
+search:
+  enable: true
+  path: search.json
+  field: post
+  content: true
+
+# 评论系统设置
+comments:
+  enable: false
+  # 可以配置Valine、Disqus等评论系统
+
+# 数学公式支持
+math:
+  enable: false
+  mathjax:
+    enable: false
+  katex:
+    enable: false
+
+# 代码高亮设置
+codeblock:
+  theme: default
+  highlight: true
+
+# 动画效果
+animate:
+  enable: true
+  duration: 1.2
+  delay: 0.1
+  transition:
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # 可以添加更多动画效果
+
+# 图片懒加载
+lazyload:
+  enable: true
+  loadingImg: /images/loading.gif
+
+# 页面加载进度条
+progressbar:
+  enable: true
+  height: 3px
+  color: "#29d"
+  pjax: true
+
+# 字体设置
+font:
+  enable: true
+  family: 'Noto Serif SC, sans-serif'
+  size: 16px
+
+# 主题颜色
+color:
+  primary: "#e9546b"
+  bg: "#f5f5f5"
+  text: "#4c4948"
+  link: "#e9546b"
