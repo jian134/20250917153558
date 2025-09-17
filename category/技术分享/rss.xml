@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>我的个人博客 • Posts by &#34;技术分享&#34; category</title>
-        <link>http://example.com</link>
+        <link>https://jian134.github.io/20250917153558</link>
         <description>专注于技术文章分享的个人博客</description>
         <language>en</language>
         <pubDate>Wed, 17 Sep 2025 15:43:41 +0800</pubDate>
@@ -10,20 +10,19 @@
         <category>示例</category>
         <category>技术</category>
         <item>
-            <guid isPermalink="true">http://example.com/2025/09/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</guid>
+            <guid isPermalink="true">https://jian134.github.io/20250917153558/2025/09/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</guid>
             <title>第一篇博客文章</title>
-            <link>http://example.com/2025/09/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</link>
+            <link>https://jian134.github.io/20250917153558/2025/09/17/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</link>
             <category>示例</category>
             <category>技术</category>
             <pubDate>Wed, 17 Sep 2025 15:43:41 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;欢迎来到我的博客！这是我的第一篇文章。&lt;/p&gt;
-&lt;h2 id=&#34;文章内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文章内容&#34;&gt;#&lt;/a&gt; 文章内容&lt;/h2&gt;
-&lt;p&gt;codeBuddy 的一次尝试…&lt;/p&gt;
-&lt;p&gt;Markdown 语法示例：&lt;/p&gt;
+&lt;h2 id=&#34;文章内容&#34;&gt;&lt;a href=&#34;#文章内容&#34; class=&#34;headerlink&#34; title=&#34;文章内容&#34;&gt;&lt;/a&gt;文章内容&lt;/h2&gt;&lt;p&gt;codeBuddy的一次尝试…&lt;/p&gt;
+&lt;p&gt;Markdown语法示例：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;加粗文本&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;斜体文本&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://example.com&#34;&gt;链接示例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leGFtcGxlLmNvbS8=&#34;&gt;链接示例&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;代码片段123&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
