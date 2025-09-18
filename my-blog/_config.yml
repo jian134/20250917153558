@@ -5,9 +5,9 @@
 # Site
 title: 我的个人博客
 subtitle: '文章分享'
-description: '专注于技术文章分享的个人博客'
+description: '专注于摸鱼分享的个人博客'
 keywords: '技术,博客,编程'
-author: Muke
+author: MukeCC-2
 language: en
 timezone: ''
 
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shoka
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

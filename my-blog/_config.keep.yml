@@ -1,0 +1,33 @@
+# Keep 主题配置
+# Docs: https://github.com/XPoet/hexo-theme-keep
+
+# 主题基本配置
+keep:
+  # 主题颜色
+  palette:
+    primary: "#3b70fc"  # 主色调
+    secondary: "#f7f9fe" # 次色调
+  
+  # 侧边栏
+  sidebar:
+    position: left       # 侧边栏位置 (left/right)
+    avatar: 
+      enabled: true     # 是否显示头像
+      url: /images/avatar.jpg # 头像路径
+      rounded: false    # 是否圆形头像
+  
+  # 文章设置
+  post:
+    license: false      # 是否显示版权信息
+    toc: true           # 是否显示目录
+  
+  # 页脚
+  footer:
+    since: 2025         # 建站年份
+    powered: false      # 是否显示Hexo驱动
+    theme: false        # 是否显示主题信息
+  
+  # 其他功能
+  fancybox: false       # 禁用图片灯箱效果
+  math: false           # 禁用数学公式
+  lazyload: false       # 禁用图片懒加载

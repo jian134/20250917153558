@@ -1,19 +1,42 @@
-# Theme Color
-theme-color:
+# Butterfly 主题配置
+# Docs: https://butterfly.js.org/
+
+# 主题基础设置
+theme_color:
   enable: true
-  main: "#4CAF50"
-  paginator: "#8BC34A"
-  button_hover: "#FF9800"
-  text_selection: "#4CAF50"
-  link_color: "#607D8B"
-  link_hover: "#4CAF50"
+  main: "#49b1f5"  # 主色调
+  paginator: "#00c4b6" # 分页器颜色
+  button_hover: "#ff7242" # 按钮悬停颜色
+  text_selection: "#80c8f8" # 文本选中颜色
+  link_color: "#99a9bf" # 链接颜色
+  meta_color: "#858585" # 元信息颜色
+  hr_color: "#A4D8FA" # 水平线颜色
 
-# Home Page
-index:
-  banner_img: 
-  banner_img_height: 70
+# 网站图标
+favicon: /images/avatar.jpg
 
-# Article
-article:
-  meta_align: center
-  copyright: true
+# 头像设置
+avatar:
+  img: /images/avatar.jpg
+  effect: false # 是否启用头像旋转效果
+
+# 侧边栏设置
+aside:
+  enable: true
+  mobile: true # 在移动设备上显示侧边栏
+  position: right # 侧边栏位置 (left/right)
+  card_author:
+    enable: true
+    description: 专注于摸鱼分享的个人博客
+
+# 页脚设置
+footer:
+  owner:
+    enable: true
+    since: 2025
+  copyright: true # 显示版权信息
+  powered: false # 不显示Hexo驱动
+  theme:
+    enable: false # 不显示主题信息
+  icp:
+    enable: false # 备案信息
