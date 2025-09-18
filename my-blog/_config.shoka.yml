@@ -1,13 +1,19 @@
 # Shoka主题配置文件
 
-# 网站图标和头像
+# 站点图标和头像
 favicon:
-  apple_touch_icon: /images/apple-touch-icon.png
-  favicon_32_32: /images/favicon-32x32.png
-  favicon_16_16: /images/favicon-16x16.png
-  safari_pinned_tab: /images/safari-pinned-tab.svg
+  # 暂时禁用图标，等待手动添加
+  # apple_touch_icon: /images/apple-touch-icon.png
+  # favicon_32x32: /images/favicon-32x32.png
+  # favicon_16x16: /images/favicon-16x16.png
+  # webmanifest: /site.webmanifest
+  # safari_pinned_tab: /safari-pinned-tab.svg
 
-avatar: /images/avatar_v2.jpg  # 临时修改文件名绕过缓存
+# 作者信息
+author:
+  name: Muke
+  email: # 您的邮箱
+  avatar: /images/avatar.jpg # 头像路径
 
 # 菜单设置
 menu:
@@ -20,27 +26,41 @@ menu:
     tags: /tags/ || tags
   friends: /friends/ || heart
 
-# 社交媒体链接
-social:
-  github: https://github.com/yourname || github
-  email: mailto:your-email@example.com || envelope
-  # 可以添加更多社交媒体链接
+# 主题颜色
+# color: orange
+
+# 边栏设置
+sidebar:
+  position: left # left or right
+  # avatar: 
+  #   enable: true
+  #   url: /images/avatar.jpg
+  #   rounded: true
+  #   opacity: 1
+  # 侧边栏显示的徽标
+  # badges:
+  #   - name: GitHub
+  #     icon: fab fa-github
+  #     url: https://github.com/yourname
+  #   - name: Email
+  #     icon: fas fa-envelope
+  #     url: mailto:your.email@example.com
 
 # 页脚设置
 footer:
-  since: 2023
-  count: true
-  powered: true
-  theme: true
-  beian:
+  since: 2025 # 站点起始年份
+  count: true # 显示文章计数
+  powered: true # 显示Hexo驱动
+  theme: true # 显示主题信息
+  beian: # 备案信息
     enable: false
-    icp: 
+    icp: # ICP备案号
 
 # 文章设置
 post:
-  count: true
-  copyright: true
-  reward: false
+  count: true # 显示字数统计
+  time: true # 显示阅读时间
+  copyright: true # 显示版权信息
 
 # 搜索设置
 search:
@@ -50,56 +70,81 @@ search:
   content: true
 
 # 评论系统设置
-comments:
-  enable: false
-  # 可以配置Valine、Disqus等评论系统
+# comments:
+#   enable: false
+#   provider: valine
+#   valine:
+#     appId: # 您的LeanCloud应用appId
+#     appKey: # 您的LeanCloud应用appKey
+#     placeholder: 请输入评论 # 评论框占位提示符
+#     avatar: mp # 默认头像
+#     meta: [nick, mail, link] # 评论者相关属性
+#     pageSize: 10 # 评论列表分页，每页条数
+#     lang: zh-CN # 语言
+#     visitor: false # 文章访问量统计
+#     highlight: true # 代码高亮
+#     recordIP: false # 记录评论者IP
+#     serverURLs: # 该配置适用于国内自定义域名用户
 
-# 数学公式支持
-math:
-  enable: false
-  mathjax:
-    enable: false
-  katex:
-    enable: false
+# 站点统计
+# analytics:
+#   google:
+#     enable: false
+#     id: # 您的Google Analytics ID
 
-# 代码高亮设置
-codeblock:
-  theme: default
-  highlight: true
-
-# 动画效果
-animate:
+# 页面动画效果
+motion:
   enable: true
-  duration: 1.2
-  delay: 0.1
+  async: false
   transition:
+    # 全局过渡效果
     post_block: fadeIn
     post_header: fadeInDown
     post_body: fadeInDown
     coll_header: fadeInLeft
-    # 可以添加更多动画效果
+    # 侧边栏过渡效果
+    sidebar: fadeInUp
+
+# 代码高亮主题
+codeblock:
+  theme: default
+  highlight: true
+  copy: true
+
+# 数学公式支持
+math:
+  enable: false
+  per_page: false
+  engine: mathjax
+  mathjax:
+    cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # 图片懒加载
 lazyload:
   enable: true
   loadingImg: /images/loading.gif
 
-# 页面加载进度条
-progressbar:
+# 图片灯箱效果
+fancybox:
   enable: true
+  auto: true
+
+# 阅读进度条
+reading_progress:
+  enable: true
+  color: "#37c6c0"
   height: 3px
-  color: "#29d"
-  pjax: true
 
-# 字体设置
-font:
+# 返回顶部按钮
+back2top:
   enable: true
-  family: 'Noto Serif SC, sans-serif'
-  size: 16px
+  icon: fas fa-arrow-up
+  scrollpercent: true
 
-# 主题颜色
-color:
-  primary: "#e9546b"
-  bg: "#f5f5f5"
-  text: "#4c4948"
-  link: "#e9546b"
+# 文章目录
+toc:
+  enable: true
+  number: true
+  wrap: true
+  expand_all: false
+  max_depth: 6

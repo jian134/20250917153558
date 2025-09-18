@@ -1,0 +1,20 @@
+- site: Hexo
+  owner: Hexo
+  url: https://hexo.io/
+  desc: 快速、简洁且高效的博客框架
+  image: https://hexo.io/icon/favicon-196x196.png
+  color: "#0e83cd"
+
+- site: Shoka主题
+  owner: amehime
+  url: https://shoka.lostyu.me/
+  desc: 书香满屋，根植于Hexo的主题
+  image: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+  color: "#e9546b"
+
+- site: GitHub
+  owner: GitHub
+  url: https://github.com/
+  desc: 全球最大的代码托管平台
+  image: https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
+  color: "#181717"
