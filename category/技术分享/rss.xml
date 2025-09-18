@@ -3,10 +3,11 @@
     <channel>
         <title>我的个人博客 • Posts by &#34;技术分享&#34; category</title>
         <link>https://jian134.github.io/20250917153558</link>
-        <description>专注于技术文章分享的个人博客</description>
+        <description>专注于摸鱼分享的个人博客</description>
         <language>en</language>
         <pubDate>Wed, 17 Sep 2025 15:43:41 +0800</pubDate>
         <lastBuildDate>Wed, 17 Sep 2025 15:43:41 +0800</lastBuildDate>
+        <category>宝安</category>
         <category>落日余晖</category>
         <category>示例</category>
         <category>技术</category>
@@ -24,7 +25,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;加粗文本&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;斜体文本&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9leGFtcGxlLmNvbQ==&#34;&gt;链接示例&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://example.com&#34;&gt;链接示例&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;代码片段123真是奇怪,为啥要自动创建分支gh-pages呢?&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
